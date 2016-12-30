@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: SwScaOn0hTewV49AoIrTwUMyzd6ydFduYmfX072mmrbFy8z65q7l92f+JEgFip+TX4d8Lnq/9UvTgGCcCCj7lY5pt57I17yg0RW4NjAb2HcPaVXG6kcp6QvtU8Ovzp8flST6Y717CMFQ9/Iwzc4uagV+yHHCzRqtkXeiLoitYBL3E3PW0UTy1b732m2aEOlASWgz5IKMJVuvLOqrJN+yXNk4QJPRayRoMVjTFB79aExbarWeyItvK4m+sTSQ3dqtNZmX3sTB2Ojby+PpFnQsXFJpalFihl6nwLWCYNnjWEU5X4Rmzicr4ducbAcubAmDTgnVlZzEzqwJq7oW8M/sGBw8rLA4TSj9VgiwZueTHmPM6QVB3aD5gP7QOO29u98TK4xTXpDdjW9szeAKrR09gV9lWLikJalR8uB4apKpf4+0++Lp4heqK2Y6zsEAk6yGqdoEL7jgHdtxMI7rMYqtrnzsXx+Kq9ou2oxT8Wwg+9blhua1QUUMWi9D8k2iTV06C//YoU4M14hLmd1oqI8P7qO3s11l5N5WFI22JyerxuNKcLWbZOgs5IkdTZnxtoUdG6p4FGqnrw6Pxtylg/2n654b2Iw8PUMT+Hlh9Q9o2M+hwta+7RCIrN9MCHCvUAPTbM4eWM3+aYFPcr6Qn3n+WIQes5rHZedoeHHZc+oU2LQ=
+  app: morning-badlands-41697
+  on:
+    repo: danrounds/node-shopping-list-integration-tests
